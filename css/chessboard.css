@@ -1,0 +1,74 @@
+/*!
+ * chessboard.js v0.3.0
+ *
+ * Copyright 2013 Chris Oakman
+ * Released under the MIT license
+ * https://github.com/oakmac/chessboardjs/blob/master/LICENSE
+ *
+ * Date: 10 Aug 2013
+ */
+
+/* clearfix */
+.clearfix-7da63 {
+  clear: both;
+}
+
+/* board */
+.board-b72b1 {
+  border: 2px solid #404040;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* square */
+.square-55d63 {
+  float: left;
+  position: relative;
+
+  /* disable any native browser highlighting */
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+/* white square */
+.white-1e1d7 {
+  background-color: #b5f0e9;
+  color: #6397b5;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+/* black square */
+.black-3c85d {
+  background-color: #6397b5;
+  color: #b5f0e9;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+/* highlighted square */
+.highlight1-32417, .highlight2-9c5d2 {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* notation */
+.notation-322f9 {
+  cursor: default;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: absolute;
+}
+.alpha-d2270 {
+  bottom: 1px;
+  right: 3px;
+}
+.numeric-fc462 {
+  top: 2px;
+  left: 2px;
+}
